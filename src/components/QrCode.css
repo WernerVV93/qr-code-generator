@@ -1,0 +1,34 @@
+.QrCode {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  background: linear-gradient(to bottom, pink, purple);
+  margin: 2rem auto;
+  width: 18rem;
+  border-radius: 1rem;
+  box-shadow: 0rem 0.5rem 0.5rem 0rem rgba(0, 0, 0.05);
+}
+
+.Qr-header {
+  font-family: cursive;
+  align-self: center;
+}
+
+.Box {
+  width: 12rem;
+  align-self: center;
+}
+
+.Generate-button,
+.Download-button,
+.Clear-button {
+  width: 12rem;
+  align-self: center;
+  margin: 0.5rem;
+}
+
+.QR-block {
+  align-self: center;
+}
