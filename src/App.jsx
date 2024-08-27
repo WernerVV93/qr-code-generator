@@ -1,4 +1,4 @@
-import QrCode from "./components/QrCode.jsx";
+import QrCode from "./components/qrgenerator/QrCode.jsx";
 
 function App() {
   return (
